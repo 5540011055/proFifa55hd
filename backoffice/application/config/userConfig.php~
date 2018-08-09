@@ -1,0 +1,52 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+
+    $config['config-fake-@-file-userConfig.php']         = null;
+    
+    
+    class Database{
+        /*
+		  public static $host		= "192.168.1.250";	
+        public static $user		= "firered";	
+        public static $pass		= "2342529";  
+        */
+        
+        public static $host		= "localhost";	
+        public static $user		= "root";	
+        public static $pass		= "";	
+       
+        public static $port             = 3306;
+        public static $dbName           = "_newsystem_sk";
+        public static $prefix           = "";
+    }
+    
+    /* 
+     *  Database::$prefix ===> $priv$local_id
+     *  example     sk1, sk2, sk3
+     */
+    class Site{
+        public static $local_id         = 100;
+        public static $priv             = 'abtsk';
+        public static $domainName 	= null;	
+        public static $fullURL		= null;	
+        public static $fullAdminURL     = null;
+        public static $fullPath         = null;	   
+        public static $fullAdminPath    = null;      
+    }
+    class Object{}
+    Database::$prefix           = '_'. Site::$priv. Site::$local_id. ''.Database::$prefix .'_';
+    Site::$domainName           = $_SERVER['HTTP_HOST'];
+    //Site::$fullPath             = dirname($_SERVER['PHP_SELF']);
+    Site::$fullPath             = dirname($_SERVER['REQUEST_URI']);
+    Site::$fullPath             = explode("###", str_replace("/admin","###", site::$fullPath));
+    Site::$fullPath             = Site::$fullPath[0];
+    if(substr(site::$fullPath,strlen(site::$fullPath)-1,1)<>"/"){
+        site::$fullPath     .= "/";
+    }
+    Site::$fullPath             = str_replace("\/","/",site::$fullPath);
+    Site::$fullPath             = str_replace("\/\/","/",site::$fullPath);
+    Site::$fullAdminPath        = Site::$fullPath. 'admin/';
+    Site::$fullURL              = "http://". site::$domainName. site::$fullPath;
+    //Site::$fullURL              = str_replace('//index.php', '', Site::$fullURL );
+    Site::$fullAdminURL         = Site::$fullURL. 'admin/';
+    
+?>

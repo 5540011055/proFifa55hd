@@ -1,0 +1,36 @@
+
+ @font-face{
+ font-family:'supermarket';
+ src:url("font/supermarket.eot");
+ src:url('font/supermarket.eot?iefix') format('embedded-opentype'),
+	url('font/supermarket.woff') format('woff'),
+	url('font/supermarket.ttf') format('truetype'),
+	url('font/supermarket.svg#webfontRqKNf97K') format('svg');
+	src: local('font/supermarket'), local('font/supermarket'), url('font/supermarket.ttf') format('truetype');
+	font-weight:normal;
+	font-style:normal;
+	}
+	
+	
+	
+@font-face{
+font-family:'RSURegular';
+	src:url('font/rsu_regular-webfont.eot');
+	src:url('font/rsu_regular-webfont.eot?iefix') format('eot'),
+url('font/rsu_regular-webfont.woff') format('woff'),
+url('font/rsu_regular-webfont.ttf') format('truetype'),
+url('font/rsu_regular-webfont.svg#webfontRqKNf97K') format('svg');
+font-weight:normal;
+font-style:normal;
+}
+	
+/* @font-face{
+ font-family:'rsu';
+ src:url("font/rsu_regular.eot");
+ src:url('font/rsu_regular.eot?iefix') format('embedded-opentype'),
+	url('font/rsu_regular.woff') format('woff'),
+	url('font/rsu_regular.ttf') format('truetype'),
+	url('font/rsu_regular.svg#webfontRqKNf97K') format('svg');
+	font-weight:normal;font-style:normal;
+	}
+	*/

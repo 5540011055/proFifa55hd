@@ -1,0 +1,40 @@
+body {
+	 margin: 0 0;
+}
+.flash-head{
+
+	text-align: center;
+}
+.font-16{
+	font-size: 16px;
+}
+.collor-red{
+	color: rgb(230, 0, 0);
+}
+.devider{
+	
+}
+.txt-center{
+	text-align: center;
+}
+.txt-right{
+	text-align: right;
+}
+.txt-left{
+	text-align:left;
+}
+
+.seach_bg{
+	background: rgb(255, 254, 240);
+}
+
+.gray1{
+	color: rgb(163, 163, 163);
+}
+
+.pg{
+	margin-bottom: 5px;
+font-weight: bold;
+border-top: 1px #E9E9E9 dashed;
+padding-top: 5px;
+}

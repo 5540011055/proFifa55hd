@@ -1,0 +1,397 @@
+@font-face{
+font-family:'supermarket';
+	src:url('font/supermarket.eot');
+ 	src:url('font/supermarket.eot?iefix') format('embedded-opentype'),
+		url('font/supermarket.woff') format('woff'),
+		url('font/supermarket.ttf') format('truetype'),
+		url('font/supermarket.svg#webfontRqKNf97K') format('svg');
+		font-weight:normal;font-style:normal;
+	}
+	
+@font-face{
+font-family:'OpenSans';
+	src:url('font/OpenSans-Regular.ttf') format('truetype');
+		font-weight:normal;font-style:normal;
+	}	
+	
+@font-face{
+font-family:'rsu';
+	src:url('font/rsu_regular-webfont.eot');
+	src:url('font/rsu_regular-webfont.eot?iefix') format('eot'),
+		url('font/rsu_regular-webfont.woff') format('woff'),
+		url('font/rsu_regular-webfont.ttf') format('truetype'),
+		url('font/rsu_regular-webfont.svg#webfontRqKNf97K') format('svg');
+
+font-weight:normal;font-style:normal;
+}
+
+@font-face {
+    font-family: 'UsuziRegular';
+    src: url('font/usuzi.eot');
+    src: url('font/usuzi.eot') format('embedded-opentype'),
+		url('font/usuzi.woff') format('woff'),
+		url('font/usuzi.ttf') format('truetype'),
+		url('font/usuzi.svg#UsuziRegular') format('svg');
+}
+
+@font-face{
+font-family:'thaisanslite';
+	src:url('font/thaisanslite.eot');
+ 	src:url('font/thaisanslite.eot?iefix') format('embedded-opentype'),
+		url('font/thaisanslite.woff') format('woff'),
+		url('font/thaisanslite.ttf') format('truetype'),
+		url('font/thaisanslite.svg#webfontRqKNf97K') format('svg');
+	font-weight:normal;font-style:normal;
+}
+
+@font-face {
+    font-family: 'THSarabunNewRegular';
+    src: url('font/thsarabunnew.eot');
+    src: url('font/thsarabunnew.eot') format('embedded-opentype'),
+         url('font/thsarabunnew.woff') format('woff'),
+         url('font/thsarabunnew.ttf') format('truetype'),
+         url('font/thsarabunnew.svg#THSarabunNewRegular') format('svg');
+	font-weight:normal;font-style:normal;		 
+}
+
+@font-face {
+    font-family: 'LayijiMahaniyom';
+    src: url('font/LayijiMahaniyom.eot');
+    src: url('font/LayijiMahaniyom.eot') format('embedded-opentype'),
+         url('font/LayijiMahaniyom.woff') format('woff'),
+         url('font/LayijiMahaniyom.ttf') format('truetype'),
+         url('font/LayijiMahaniyom.svg#LayijiMahaniyom') format('svg');
+	font-weight:normal;font-style:normal;		 
+}
+@font-face{
+font-family:'bansomdej';
+	src:url('font/bsrubansomdej-regular.eot');
+	src:url('font/bsrubansomdej-regular.eot?iefix') format('eot'),
+		url('font/bsrubansomdej-regular.woff') format('woff'),
+		url('font/bsrubansomdej-regular.ttf') format('truetype'),
+		url('font/bsrubansomdej-regular.svg#webfontRqKNf97K') format('svg');
+
+	font-weight:normal;font-style:normal;
+}
+@font-face{
+font-family:'domino';
+	src:url('font/wp-domino-novel.eot');
+	src:url('font/wp-domino-novel.eot?iefix') format('eot'),
+		url('font/wp-domino-novel.woff') format('woff'),
+		url('font/wp-domino-novel.ttf') format('truetype'),
+		url('font/wp-domino-novel.svg#webfontRqKNf97K') format('svg');
+
+	font-weight:normal;font-style:normal;
+}
+@font-face {
+    font-family: 'THK2DJuly8';
+    src: url('font/THK2DJuly8.eot');
+    src: url('font/THK2DJuly8.eot') format('embedded-opentype'),
+         url('font/THK2DJuly8.woff2') format('woff2'),
+         url('font/THK2DJuly8.woff') format('woff'),
+         url('font/THK2DJuly8.ttf') format('truetype'),
+         url('font/THK2DJuly8.svg#THK2DJuly8') format('svg');
+}
+@font-face {
+    font-family: 'THCharmonman';
+    src: url('font/THCharmonman.eot');
+    src: url('font/THCharmonman.eot') format('embedded-opentype'),
+         url('font/THCharmonman.woff2') format('woff2'),
+         url('font/THCharmonman.woff') format('woff'),
+         url('font/THCharmonman.ttf') format('truetype'),
+         url('font/THCharmonman.svg#THCharmonman') format('svg');
+}
+@font-face {
+    font-family: 'PGVIM';
+    src: url('font/PGVIM.eot');
+    src: url('font/PGVIM.eot') format('embedded-opentype'),
+         url('font/PGVIM.woff2') format('woff2'),
+         url('font/PGVIM.woff') format('woff'),
+         url('font/PGVIM.ttf') format('truetype'),
+         url('font/PGVIM.svg#PGVIM') format('svg');
+}
+/*****************************Any Firefox*******************************************/
+@-moz-document url-prefix() { 
+@font-face{
+font-family:'supermarket';
+	src:url('font/supermarket.eot');
+ 	src:url('font/supermarket.eot?iefix') format('embedded-opentype'),
+		url('font/supermarket.woff') format('woff'),
+		url('font/supermarket.ttf') format('truetype'),
+		url('font/supermarket.svg#webfontRqKNf97K') format('svg');
+	src: local('font/supermarket'), local('font/supermarket'), url('font/supermarket.ttf') format('truetype');
+	font-weight:normal;font-style:normal;
+	}
+}
+
+@-moz-document url-prefix() { 
+@font-face{
+font-family:'thaisanslite';
+	src:url('font/thaisanslite.eot');
+ 	src:url('font/thaisanslite.eot?iefix') format('embedded-opentype'),
+		url('font/thaisanslite.woff') format('woff'),
+		url('font/thaisanslite.ttf') format('truetype'),
+		url('font/thaisanslite.svg#webfontRqKNf97K') format('svg');
+	src: local('font/thaisanslite'), local('font/thaisanslite'), url('font/thaisanslite.ttf') format('truetype');
+	font-weight:normal;font-style:normal;
+	}
+}
+
+@-moz-document url-prefix() { 
+@font-face{
+    font-family: 'THSarabunNewRegular';
+    src: url('font/thsarabunnew.eot');
+    src: url('font/thsarabunnew.eot') format('embedded-opentype'),
+         url('font/thsarabunnew.woff') format('woff'),
+         url('font/thsarabunnew.ttf') format('truetype'),
+         url('font/thsarabunnew.svg#THSarabunNewRegular') format('svg');
+	src: local('font/thsarabunnew'), local('font/thsarabunnew'), url('font/thsarabunnew.ttf') format('truetype');		 
+	font-weight:normal;font-style:normal;	
+	}
+}
+
+@-moz-document url-prefix() { 
+@font-face{
+    font-family: 'LayijiMahaniyom';
+    src: url('font/LayijiMahaniyom.eot');
+    src: url('font/LayijiMahaniyom.eot') format('embedded-opentype'),
+         url('font/LayijiMahaniyom.woff') format('woff'),
+         url('font/LayijiMahaniyom.ttf') format('truetype'),
+         url('font/LayijiMahaniyom.svg#LayijiMahaniyom') format('svg');
+	src: local('font/thsarabunnew'), local('font/LayijiMahaniyom'), url('font/LayijiMahaniyom.ttf') format('truetype');		 
+	font-weight:normal;font-style:normal;	
+	}
+}
+
+@-moz-document url-prefix() { 
+@font-face{
+    font-family: 'bansomdej';
+    src: url('font/bsrubansomdej-regular.eot');
+    src: url('font/bsrubansomdej-regular.eot') format('embedded-opentype'),
+         url('font/bsrubansomdej-regular.woff') format('woff'),
+         url('font/bsrubansomdej-regular.ttf') format('truetype'),
+         url('font/bsrubansomdej-regular.svg#LayijiMahaniyom') format('svg');
+	src: local('font/bsrubansomdej-regular'), local('font/LayijiMahaniyom'), url('font/LayijiMahaniyom.ttf') format('truetype');		 
+	font-weight:normal;font-style:normal;	
+	}
+}
+
+@-moz-document url-prefix() { 
+@font-face{
+font-family:'th_niramit';
+	src:url('font/th_niramit.eot');
+ 	src:url('font/th_niramit.eot?iefix') format('embedded-opentype'),
+url('font/th_niramit.woff') format('woff'),
+url('font/th_niramit.ttf') format('truetype'),
+url('font/th_niramit.svg#webfontRqKNf97K') format('svg');
+src: local('font/th_niramit'), local('font/th_niramit'), url('font/th_niramit.ttf') format('truetype');
+font-weight:normal;font-style:normal;
+	}
+}
+@-moz-document url-prefix() { 
+@font-face{
+font-family:'domino';
+	src:url('font/wp-domino-novel.eot');
+ 	src:url('font/wp-domino-novel.eot?iefix') format('embedded-opentype'),
+url('font/wp-domino-novel.woff') format('woff'),
+url('font/wp-domino-novel.ttf') format('truetype'),
+url('font/wp-domino-novel.svg#webfontRqKNf97K') format('svg');
+src: local('font/wp-domino-novel'), local('font/wp-domino-novel'), url('font/wp-domino-novel.ttf') format('truetype');
+font-weight:normal;font-style:normal;
+	}
+}
+@-moz-document url-prefix() { 
+@font-face{
+font-family:'THK2DJuly8';
+	src:url('font/THK2DJuly8.eot');
+ 	src:url('font/THK2DJuly8.eot?iefix') format('embedded-opentype'),
+url('font/THK2DJuly8.woff') format('woff'),
+url('font/THK2DJuly8.ttf') format('truetype'),
+url('font/THK2DJuly8.svg#webfontRqKNf97K') format('svg');
+src: local('font/THK2DJuly8'), local('font/THK2DJuly8'), url('font/THK2DJuly8.ttf') format('truetype');
+font-weight:normal;font-style:normal;
+	}
+}
+
+@-moz-document url-prefix() { 
+@font-face{
+font-family:'THCharmonman';
+	src:url('font/THCharmonman.eot');
+ 	src:url('font/THCharmonman.eot?iefix') format('embedded-opentype'),
+url('font/THCharmonman.woff') format('woff'),
+url('font/THCharmonman.ttf') format('truetype'),
+url('font/THCharmonman.svg#webfontRqKNf97K') format('svg');
+src: local('font/THCharmonman'), local('font/THCharmonman'), url('font/THCharmonman.ttf') format('truetype');
+font-weight:normal;font-style:normal;
+	}
+}
+@-moz-document url-prefix() { 
+@font-face{
+font-family:'PGVIM';
+	src:url('font/PGVIM.eot');
+ 	src:url('font/PGVIM.eot?iefix') format('embedded-opentype'),
+url('font/PGVIM.woff') format('woff'),
+url('font/PGVIM.ttf') format('truetype'),
+url('font/PGVIM.svg#webfontRqKNf97K') format('svg');
+src: local('font/PGVIM'), local('font/PGVIM'), url('font/PGVIM.ttf') format('truetype');
+font-weight:normal;font-style:normal;
+	}
+}
+/***********************************Any Google Chrome*************************************************/
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+ @font-face{
+font-family:'supermarket';
+	src:url('font/supermarket.eot');
+ 	src:url('font/supermarket.eot?iefix') format('embedded-opentype'),
+		url('font/supermarket.woff') format('woff'),
+		url('font/supermarket.ttf') format('truetype'),
+		url('font/supermarket.svg#webfontRqKNf97K') format('svg');
+	src: local('font/supermarket'), local('font/supermarket'), url('font/supermarket.ttf') format('truetype');
+	font-weight:normal;font-style:normal;
+	}
+ 
+@font-face{
+font-family:'th_niramit';
+	src:url('font/th_niramit.eot');
+ 	src:url('font/th_niramit.eot?iefix') format('embedded-opentype'),
+		url('font/th_niramit.woff') format('woff'),
+		url('font/th_niramit.ttf') format('truetype'),
+		url('font/th_niramit.svg#webfontRqKNf97K') format('svg');
+	font-weight:normal;font-style:normal;
+	}
+@font-face{
+font-family:'rsu';
+	src:url('font/rsu_regular-webfont.eot');
+	src:url('font/rsu_regular-webfont.eot?iefix') format('eot'),
+		url('font/rsu_regular-webfont.woff') format('woff'),
+		url('font/rsu_regular-webfont.ttf') format('truetype'),
+		url('font/rsu_regular-webfont.svg#webfontRqKNf97K') format('svg');
+	font-weight:normal;font-style:normal;
+}
+
+@font-face{
+font-family:'thaisanslite';
+	src:url('font/thaisanslite.eot');
+	src:url('font/thaisanslite.eot?iefix') format('eot'),
+		url('font/thaisanslite.woff') format('woff'),
+		url('font/thaisanslite.ttf') format('truetype'),
+		url('font/thaisanslite.svg#webfontRqKNf97K') format('svg');
+	font-weight:normal;font-style:normal;
+}
+
+@font-face{
+font-family:'THSarabunNewRegular';
+	src:url('font/thsarabunnew.eot');
+	src:url('font/thsarabunnew.eot?iefix') format('eot'),
+		url('font/thsarabunnew.woff') format('woff'),
+		url('font/thsarabunnew.ttf') format('truetype'),
+		url('font/thsarabunnew.svg#webfontRqKNf97K') format('svg');
+	font-weight:normal;font-style:normal;
+}
+
+@font-face{
+font-family:'LayijiMahaniyom';
+	src:url('font/LayijiMahaniyom.eot');
+	src:url('font/LayijiMahaniyom.eot?iefix') format('eot'),
+		url('font/LayijiMahaniyom.woff') format('woff'),
+		url('font/LayijiMahaniyom.ttf') format('truetype'),
+		url('font/LayijiMahaniyom.svg#LayijiMahaniyom') format('svg');
+	font-weight:normal;font-style:normal;
+}
+
+@font-face{
+font-family:'bansomdej';
+	src:url('font/bsrubansomdej-regular.eot');
+	src:url('font/bsrubansomdej-regular.eot?iefix') format('eot'),
+		url('font/bsrubansomdej-regular.woff') format('woff'),
+		url('font/bsrubansomdej-regular.ttf') format('truetype'),
+		url('font/bsrubansomdej-regular.svg#LayijiMahaniyom') format('svg');
+	font-weight:normal;font-style:normal;
+}
+
+ @font-face{
+font-family:'th_niramit';
+	src:url('font/th_niramit.eot');
+ 	src:url('font/th_niramit.eot?iefix') format('embedded-opentype'),
+url('font/th_niramit.woff') format('woff'),
+url('font/th_niramit.ttf') format('truetype'),
+url('font/th_niramit.svg#webfontRqKNf97K') format('svg');
+src: local('font/th_niramit'), local('font/th_niramit'), url('font/th_niramit.ttf') format('truetype');
+font-weight:normal;font-style:normal;
+	}
+	
+ @font-face{
+font-family:'domino';
+	src:url('font/wp-domino-novel.eot');
+ 	src:url('font/wp-domino-novel.eot?iefix') format('embedded-opentype'),
+url('font/wp-domino-novel.woff') format('woff'),
+url('font/wp-domino-novel.ttf') format('truetype'),
+url('font/wp-domino-novel.svg#webfontRqKNf97K') format('svg');
+src: local('font/wp-domino-novel'), local('font/wp-domino-novel'), url('font/wp-domino-novel.ttf') format('truetype');
+font-weight:normal;font-style:normal;
+	}
+
+ @font-face{
+font-family:'THK2DJuly8';
+	src:url('font/THK2DJuly8.eot');
+ 	src:url('font/THK2DJuly8.eot?iefix') format('embedded-opentype'),
+url('font/THK2DJuly8.woff') format('woff'),
+url('font/THK2DJuly8.ttf') format('truetype'),
+url('font/THK2DJuly8.svg#webfontRqKNf97K') format('svg');
+src: local('font/THK2DJuly8'), local('font/THK2DJuly8'), url('font/THK2DJuly8.ttf') format('truetype');
+font-weight:normal;font-style:normal;
+	}
+
+ @font-face{
+font-family:'THCharmonman';
+	src:url('font/THCharmonman.eot');
+ 	src:url('font/THCharmonman.eot?iefix') format('embedded-opentype'),
+url('font/THCharmonman.woff') format('woff'),
+url('font/THCharmonman.ttf') format('truetype'),
+url('font/THCharmonman.svg#webfontRqKNf97K') format('svg');
+src: local('font/THCharmonman'), local('font/THCharmonman'), url('font/THCharmonman.ttf') format('truetype');
+font-weight:normal;font-style:normal;
+	}
+
+}
+
+ @font-face{
+font-family:'PGVIM';
+	src:url('font/PGVIM.eot');
+ 	src:url('font/PGVIM.eot?iefix') format('embedded-opentype'),
+url('font/PGVIM.woff') format('woff'),
+url('font/PGVIM.ttf') format('truetype'),
+url('font/PGVIM.svg#webfontRqKNf97K') format('svg');
+src: local('font/PGVIM'), local('font/PGVIM'), url('font/PGVIM.ttf') format('truetype');
+font-weight:normal;font-style:normal;
+	}
+
+}
+
+@font-face{
+	 font-family:'PSLxKittithadabold';
+	 src:url("font/pslxkittithada_bold.eot");
+}
+	 
+@font-face{
+	font-family:'PSLxKittithadabold';
+	src:url("font/pslxkittithada_bold.ttf");
+}
+
+
+
+ 
+/***********************/
+
+
+
+
+
+
+
+
+
+
+
+
+

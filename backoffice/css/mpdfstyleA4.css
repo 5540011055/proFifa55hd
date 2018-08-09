@@ -1,0 +1,77 @@
+body {
+font-family: THSarabun;
+margin:0px;
+margin:0;
+padding:0;
+}
+
+hr {
+	width: 70%;
+	height: 1px;
+	text-align: center;
+	color: #999999;
+	margin-top: 8pt;
+	margin-bottom: 8pt;
+}
+h1 {
+	font-weight: normal;
+	font-size: 18pt;
+}
+.td {
+	font-size: 18px;
+	vertical-align:top;
+}
+.headtd{
+font-size:19px;
+}
+.line {
+	border-bottom:#000 1px dotted;
+}
+.tdfoot {
+	font-size: 11pt
+}
+span {
+	font-size: 12pt;
+	text-align: left;/* border-bottom:#000 1px dotted;*/
+		}
+/*div {
+	padding:1em;
+	margin-bottom: 1em;
+	text-align:justify;
+}*/
+#wrapper {
+margin:0px;
+	border: 1px solid yellow;
+}
+#page {
+	/*border: 1px solid blue;
+	height:900px;*/
+}
+.content {
+/*	height:800px;
+
+	border: 1px solid red;
+	*/
+}
+.final_grad {
+	
+	border: 1px solid green;
+	
+}
+.footer {
+	border: 1px solid red;
+	padding-left:20px;
+}
+.tbfooter{
+font-size:8pt;
+}
+.tbfooter2{
+font-size:11pt;
+}
+.top{
+vertical-align:top;
+}
+.header{
+
+}
+

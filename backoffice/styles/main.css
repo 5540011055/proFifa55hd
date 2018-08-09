@@ -1,0 +1,269 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+TABLE.admintable TD {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; PADDING-TOP: 3px
+}
+TABLE.admintable TD.key {
+	BORDER-RIGHT: #e9e9e9 1px solid; FONT-WEIGHT: bold; color:#000; BORDER-BOTTOM: #e9e9e9 1px solid; BACKGROUND-COLOR: #f6f6f6; height:20px;
+}
+TABLE.admintable TD.key a{
+	color:#000;
+}
+TABLE.admintable TD.gridmenu {
+	BORDER-RIGHT: #e9e9e9 1px solid; FONT-WEIGHT: bold; color:#000; BORDER-BOTTOM: #e9e9e9 1px solid; BACKGROUND-COLOR: #f6f6f6; height:20px;
+}
+TABLE.admintable TD.gridmenu a{
+	color:#000;
+}
+TABLE.admintable TD.sub_key a{
+	color:#000;
+}
+TABLE.admintable TD.sub_key {
+	BORDER-RIGHT: #e9e9e9 1px solid; FONT-WEIGHT: normal; color:#000; BORDER-BOTTOM: #e9e9e9 1px solid; BACKGROUND-COLOR: #FFF; height:20px;
+}
+TABLE.admintable .paramlist_key {
+	BORDER-RIGHT: #e9e9e9 1px solid; FONT-WEIGHT: bold; color:#000; BORDER-BOTTOM: #e9e9e9 1px solid; BACKGROUND-COLOR: #F4F4F4
+}
+TABLE.admintable .paramlist_key:hover {
+	BORDER-RIGHT: #e9e9e9 1px solid; FONT-WEIGHT: bold; color:#000; BORDER-BOTTOM: #e9e9e9 1px solid; BACKGROUND-COLOR: #fff
+}
+TABLE.admintable .paramlist_key_selected {
+	BORDER-RIGHT: #e9e9e9 1px solid; FONT-WEIGHT: bold; color:#000; BORDER-BOTTOM: #e9e9e9 1px solid; BACKGROUND-COLOR: #fff
+}
+
+#content .ct2 .innertube .box .mid{
+	FONT: 12px/1.3em Verdana, Tahoma;
+	
+}
+#content .ct2 .innertube .box .mid a{
+	color:#000;
+	
+}
+
+.textbold{
+	font-weight:bold;
+}
+.select a{
+	color:#000;
+}
+.loader{
+	background-image:url(images/ajax-loader.gif);
+	background-repeat:no-repeat;
+	background-position:center;
+	float:right;
+	width:20px;
+	height:20px;
+}
+.errorbox{
+	text-align:center;
+	color:#F00;
+	font-weight:bold;
+}
+
+/*.admintable input[type='button']{
+	font-family:Georgia, serif
+	font-size:14px;
+	font-weight:bold;
+	height:30px;
+	min-width:100px;
+}*/
+
+/* UI Dialog Box
+----------------------------------*/
+#dialog-modal{
+	font-family: Helvetica, Georgia, serif;
+	padding:3px;
+}
+
+.ui-widget { font-family:Helvetica,Georgia, serif; }
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default { font-family:Helvetica,Georgia, serif; }
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited { font-family:Helvetica,Georgia, serif; }
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus { font-family:Helvetica,Georgia, serif; }
+.ui-state-hover a, .ui-state-hover a:hover { font-family:Helvetica,Georgia, serif;}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active { font-family:Helvetica,Georgia, serif; }
+.ui-widget :active { font-family:Helvetica,Georgia, serif; }
+/*
+----------------------------------*/
+#multiremovebutton{
+	text-indent:16px;
+	background-image:url(images/icons/16px/recycle_bin.png);
+	background-repeat:no-repeat;
+	background-position:center left;
+	border:solid 1px #666;
+}
+#addnewbutton{
+	text-indent:16px;
+	background-image:url(images/icons/16px/add.png);
+	background-repeat:no-repeat;
+	background-position:center left;
+	border:solid 1px #666;
+}
+#searchbutton{
+	text-indent:16px;
+	background-image:url(images/icons/16px/search.png);
+	background-repeat:no-repeat;
+	background-position:center left;
+	border:solid 1px #666;
+	padding:1px;
+}
+#remove_datagrid,#delete_datagrid{
+	text-indent:-500px;
+	background-image:url(images/icons/16px/delete.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	overflow:hidden;
+}
+#edit_datagrid{
+	text-indent:-500px;
+	background-image:url(images/icons/16px/edit.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	overflow:hidden;
+}
+.grid_value{
+	height:16px;
+	overflow:hidden;
+	padding-right:2px;
+	padding-left:2px;
+}
+.error{
+	color:#F00;
+}
+/*input[type='button'],input[type='submit'],input[type='reset'],button,select{
+	background-image:url(images/button_bg.gif);
+	height:20px;
+	border:solid 1px #9B9B9B;
+	font-weight:bold;
+	color:#282828;
+	font-size:11px;
+	cursor:pointer;
+}*/
+.admintable .key{
+/*	background-image:url(images/key_bg.gif);*/
+	background-repeat:repeat-x;
+}
+input[type='text'],input[type='password'],#keyword{
+	height:25px;
+	border:solid 1px #9B9B9B;
+	color:#282828;
+	font-size:11px;
+}
+
+textarea{
+	border:solid 1px #9B9B9B;
+	color:#282828;
+	font-size:11px;
+}
+.footer{
+	height:50px;
+	font-size:11px;
+	padding:5px;
+	background-color:#DADEEA;
+}
+form{
+	margin:0px;
+}
+.keyword{
+	font-weight:bold;
+	color:#F00;
+}
+.toolsgrp{
+	font-size:9px;
+}
+#loading{
+	width:200px;
+	height:120px;
+    display:none;
+	top:50%;
+	left:50%;
+	position:absolute;
+	background-color:#FFF;
+	border:solid 1px #f0f0f0;
+	 z-index: 99;
+}
+.error{
+	display:block;
+    font-size : 10px;
+    color:red;
+}
+#filecomment{
+	width:98%;
+}
+input[disabled='disabled'],button[disabled='disabled'],select[disabled='disabled'],textarea[disabled='disabled']{
+	background-color:#CCC;
+	color:#666;
+}
+span.counter{
+	background-color:#F00;
+}
+.jewelCount{
+	background-color:#00376a;
+	-webkit-border-radius:2px;
+	top:-1px;color:#fff;
+	font-size:9px;
+	font-weight:bold;
+	padding-bottom:1px;
+	right:-1px;
+	z-index:101;
+}
+.jewelCount span{
+	background-color:#f03d25;
+	border:1px solid #dd3822;
+	-webkit-border-radius:2px;
+	border-top:0;
+	padding:1px 1px 0;
+	}
+        
+.admintable{
+    font-size:13px;
+}
+
+
+.admintable thead{
+    font-size:14px;
+}
+
+
+.custom-queue {
+    background-color: #DFF9F9;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.25);
+    height: 75px;
+    margin-bottom: 10px;
+    overflow: auto;
+    padding: 5px 10px;
+    width: 700px;
+}
+
+
+.display_image{
+    color:blue;
+    width:120px;
+    font-size: 12px;
+    height:17px;
+    padding:2px;
+    cursor: pointer;
+}
+
+.status-notified{
+    display: block;
+    float:right;
+    text-align: center;
+    background-color: #F00;
+    color:white;
+    font-weight: bold;
+    width:20px;
+    height:17px;
+}
+
+
+span.comment{
+    font-size:10px;
+    color:#d1bd6a;
+    font-weight:bold;
+    line-height: 25px;
+}
+
+
