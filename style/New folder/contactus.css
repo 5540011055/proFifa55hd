@@ -1,0 +1,237 @@
+@charset "utf-8";
+/* CSS Document */
+/*******************contact*******************/
+.contacts{
+	float:left;
+	width:100%;
+	height:auto;
+}
+.c-address2{
+	float:left;
+	margin-top:0px;
+	width:100%;
+	height:auto;
+}
+.songkhla-address2{
+	float:left;
+	padding:10px 0px; 
+	width:100%;
+	height:auto;
+	color:#313033;
+	font:19px/20px 'thaisanslite', Arial, sans-serif;
+}
+.songkhla-map2{
+	float:left;
+	width:100%;
+	height:300px;
+}
+.hatyai-address2{
+	float:left;
+	padding:10px 0px;
+	width:100%;
+	height:auto;
+	color:#313033;
+	font:19px/20px 'thaisanslite', Arial, sans-serif;
+}
+.hatyai-map2{
+	float:left;
+	width:100%;
+	height:300px;
+}
+.form-contacts{
+	float:left;
+	width:100%;
+	height:auto;
+	position:relative;
+
+}
+.form-contacts .form-top{
+	float:left;
+	padding-top:15px;
+	width:100%;
+	height:45px;
+	text-align:left;
+	font:32px/20px 'thaisanslite', Arial, sans-serif;
+}
+.form-contacts .form-mid{
+	float:left;
+	width:100%;
+	height:auto;
+}
+.form-contacts .form-mid ul{
+	float:left;
+	width:100%;
+	height:auto;
+}
+.form-contacts .form-mid ul li{
+	float:left;
+	margin-bottom:14px;
+	display:block;
+	width:100%;
+	height:auto;
+}
+.textbox-contacts{
+	float:left;
+	padding-left:20px;
+	width:90%;
+	height:44px;
+	-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+background:#f4f2e2;
+border:none;
+font: 18px/20px 'thaisanslite', Arial, sans-serif;
+}
+.textbox-contacts-2{
+	float:left;
+	padding-left:20px;
+	width:80%;
+	height:44px;
+	-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+background:#f4f2e2;
+border:none;
+font:18px/20px 'thaisanslite', Arial, sans-serif;
+}
+::-webkit-input-placeholder {
+   font:23px/20px 'thaisanslite', Arial, sans-serif;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   font:23px/20px 'thaisanslite', Arial, sans-serif; 
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   font:23px/20px 'thaisanslite', Arial, sans-serif;
+}
+
+:-ms-input-placeholder {  
+   font:23px/20px 'thaisanslite', Arial, sans-serif;
+}
+.form-contacts .form-bottom{
+	float:left;
+	width:100%;
+	height:auto;
+	position:relative;
+}
+/*******************contact*******************/
+
+
+/*****other****/
+.other{
+	float:left;
+	width:100%;
+	height:auto;	
+}
+.other .other-top{
+	float:left;
+	padding:0px;
+	padding-bottom:20px;
+	display:block;
+	width:100%;
+	height:auto;
+	font:35px/20px 'thaisanslite', Arial, sans-serif;
+	border-bottom:1px solid #eee;
+}
+.other .other-mid{
+	float:left;
+	width:100%;
+	height:auto;	
+}
+.other .other-mid ul{
+	float:left;
+	width:100%;
+	height:auto;	
+}
+.other .other-mid ul li{
+	float:left;
+	margin-bottom:10px;
+	width:100%;
+	height:auto;	
+}
+.other .other-mid ul li span.o-pic{
+	float:left;
+	display:block;
+	width:226px;
+	height:127px;
+	position:relative;
+}
+.other .other-mid ul li span.o-pic img{
+	margin:0 auto;
+	display:block;
+}
+.other .other-mid ul li span.o-text{
+	float:left;
+	display:block;
+	width:226px;
+	height:auto;
+	padding-bottom:13px;
+	border-bottom:1px solid #dfdfdf;
+}
+.other .other-mid ul li:last-child{
+	margin-right:0px;
+}
+.o-topic{
+	float:left;
+	padding:10px 0px;
+	width:100%;
+	height:auto;
+	font:19px/20px 'thaisanslite', Arial, sans-serif;
+	color:#000;
+	font-weight:bold;
+}
+.o-topic a{
+	color:#000;
+}
+.o-topic a:hover{
+	color:#4c2892;
+}
+.o-detail{
+	float:left;
+	width:100%;
+	height:auto;
+	font-size:13px;
+	color:#6f6f6f;
+}
+.other .other-bottom{
+	float:left;
+	width:100%;
+	height:60px;	
+	position:relative;
+}
+.banner-giftvoucher{
+	float:left;
+	width:100%;
+	height:245px;
+
+}
+/*******************social*******************/
+.social{
+	float:left;
+	margin-top:50px;
+	width:100%;
+	height:85px;
+	/*background-color:#ebe3fa;*/
+}
+.social-icon{
+	  float: left;
+  margin-top: 5px;
+  /* margin-left: 10px; */
+  width: 50px;
+  height: 76px;
+}
+.social-text{
+	  float: left;
+  padding-top: 12px;
+  margin-left: 5px;
+  width: 137px;
+  height: 52px;
+  font-size: 12px;
+}
+
+.icofont-contact{
+	color: #8742b1;
+	font-size: 16px;
+}
+/*******************social*******************/s

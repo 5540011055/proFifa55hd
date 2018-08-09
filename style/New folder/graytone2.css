@@ -1,0 +1,11 @@
+.black-ribbon {
+    position: fixed;
+    z-index: 9999;
+    width: 110px;
+}
+.f-top {
+    top: -2px;
+}
+.f-left {
+    left: -2px;
+}

@@ -1,0 +1,117 @@
+.list{
+	margin-top:10px;
+	}
+.list ul{
+	margin-bottom:15px;
+	
+	}
+.list ul li{
+	display:inline-block;
+	width:230px;
+	margin:10px;
+	padding:15px 10px;
+	background:#f5f5f5;
+	}
+.list ul li:last-child	{
+	margin-right:0;
+	}
+
+.list ul li .thumb{
+	margin-bottom:5px;
+	}
+.list ul li .thumb img{
+
+	}		
+.list ul li .title{
+	padding:10px;
+	background:#04a7ea ;
+	font:19px/20px 'supermarket', Arial, sans-serif;
+	}		
+.list ul li .title a{
+	color:#fff;
+	}		
+	
+.select-page{
+	margin-top:10px;
+	width:100%;
+	text-align:center;
+	font-size:15px;
+	
+	}
+.select-page a{
+	margin:5px;
+	padding:8px 11px;
+	background:#cfcfcf;
+	color:#fff;
+	font-weight:bold;
+	
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	}	
+.select-page a:hover{
+	background:#5ccbff;
+	}	
+	
+	
+	
+	
+.list-vdo{
+	margin-top:10px;
+	}
+.list-vdo ul{
+	margin-bottom:15px;
+	
+	}
+.list-vdo ul li{
+	display:inline-block;
+	width:230px;
+	margin:10px;
+	padding:15px 10px;
+
+
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#aebcbf+0,6e7774+50,0a0e0a+51,0a0809+100;Black+Gloss */
+background: #aebcbf; /* Old browsers */
+background: -moz-linear-gradient(top,  #aebcbf 0%, #6e7774 50%, #0a0e0a 51%, #0a0809 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #aebcbf 0%,#6e7774 50%,#0a0e0a 51%,#0a0809 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #aebcbf 0%,#6e7774 50%,#0a0e0a 51%,#0a0809 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aebcbf', endColorstr='#0a0809',GradientType=0 ); /* IE6-9 */
+
+	}
+.list-vdo ul li:last-child	{
+	margin-right:0;
+	}
+
+.list-vdo ul li .thumb{
+	margin-bottom:5px;
+	}
+.list-vdo ul li .thumb img{
+
+	}		
+.list-vdo ul li .title{
+	padding:10px;
+	background:#333 ;
+/* 	font:19px/20px 'supermarket', Arial, sans-serif; */
+	}		
+.list-vdo ul li .title a{
+	color:#fff;
+	}		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

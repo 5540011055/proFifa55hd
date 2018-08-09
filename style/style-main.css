@@ -1,0 +1,62 @@
+section.footer-contact{background:#FFF url("../img/footer-contact-bg.jpg") no-repeat center
+top;font-family:'PSLxKittithadabold';text-align:center;color:#e91515;padding:20px 0 100px 0;}
+section.footer-contact .tel-phone{border-top:5px solid #c1212c;border-left:5px solid #c1212c;border-right:5px solid #c1212c;border-bottom:5px solid #c1212c;font-size:42px;padding:10px 0}
+section.footer-contact .line-fb-container{display:inline-block;margin:auto;display:block;width:100%;position:absolute;bottom:-40px;left:0px;}
+}
+section.footer-contact .line-fb-container span:before, section.footer-contact .line-fb-container span:after{border-bottom:5px solid #ffffff;display:block;height:1px;content:" ";width:17%;position:absolute;top:80px;margin:0 15px;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px}
+section.footer-contact .line-fb-container span:before{left:0}
+section.footer-contact .line-fb-container span:after{right:0}
+section.footer-contact .line-fb-container .line-fb-inner{margin-top:-15px}
+section.footer-contact .line-fb-container .line, section.footer-contact .line-fb-container .facebook{text-transform:uppercase;font-size:25px;line-height:41px;width:60%;display:inline-block;padding:0 5px 0 0;text-align:left}
+section.footer-contact .line-fb-container .line a, section.footer-contact .line-fb-container .facebook a{color:#ffffff}
+section.footer-contact .line-fb-container .line img, section.footer-contact .line-fb-container .facebook img{height:100%;width:auto}
+section.footer-contact .line-fb-container .line{background-color:#54cb25;margin-bottom:5px}
+section.footer-contact .line-fb-container .facebook{background-color:#3b5998}
+@media screen and (min-width:768px){section.footer-contact{padding:30px 0 180px;}
+section.footer-contact .tel-phone{border-top:7px solid #c1212c;border-left:7px solid #c1212c;border-right:7px solid #c1212c;border-bottom:7px solid #c1212c;font-size:86px}
+section.footer-contact .line-fb-container span:before, section.footer-contact .line-fb-container span:after{border-bottom:7px solid #ffffff;top:142px;width:13%}
+section.footer-contact .line-fb-container .line-fb-inner{margin-top:-30px}
+section.footer-contact .line-fb-container .line, section.footer-contact .line-fb-container .facebook{font-size:36px;line-height:1.3;width:auto;padding:0 15px}
+section.footer-contact .line-fb-container .line{margin-right:15px;margin-bottom:0}
+}
+@media screen and (min-width:992px){section.footer-contact .tel-phone{font-size:132px}
+section.footer-contact .line-fb-container span:before, section.footer-contact .line-fb-container span:after{top:208px;width:17%}
+section.footer-contact .line-fb-container .line-fb-inner{margin-top:-35px}
+section.footer-contact .line-fb-container .line, section.footer-contact .line-fb-container .facebook{font-size:42px;padding:0 15px}
+section.footer-contact .line-fb-container .line img, section.footer-contact .line-fb-container .facebook img{margin-bottom:5px}
+section.footer-contact .line-fb-container .line{margin-right:35px}
+}
+@media screen and (min-width:1200px){section.footer-contact .tel-phone{font-size:142px}
+section.footer-contact .line-fb-container span:before, section.footer-contact .line-fb-container span:after{top:222px;width:19%}
+section.footer-contact .line-fb-container .line, section.footer-contact .line-fb-container .facebook{font-size:48px;padding:0 15px}
+section.footer-contact .line-fb-container .line img, section.footer-contact .line-fb-container .facebook img{margin-bottom:5px}
+section.footer-contact .line-fb-container .line{margin-right:35px}
+}
+section.footer-contact .line-fb-container .line, section.footer-contact .line-fb-container .facebook{text-transform:uppercase;font-size:25px;line-height:41px;width:100%;display:inline-block;padding:0 0px 0 0;margin:0px;text-align:left;}
+section.footer-contact .tel-phone{padding:10px 0 50px 0;background-size:100% 100%;background-repeat:no-repeat;}
+section.footer-contact .line-fb-container .line-fb-inner2{margin:auto;display:block;width:58%;}
+section.footer-contact .line-fb-container .line2, section.footer-contact .line-fb-container .facebook2{float:left;text-transform:uppercase;text-align:left;font-size:25px;line-height:325%;width:50%;display:block;padding:0px;margin:0px;text-align:left;color:#FFFFFF;}
+section.footer-contact .line-fb-container .line2 a, section.footer-contact .line-fb-container .facebook2 a{color:#FFFFFF;text-decoration:none;font-size:34px;padding-left:15px;}
+section.footer-contact .line-fb-container .line2{background-color:#54cb25;}
+section.footer-contact .line-fb-container .facebook2{background-color:#3b5998;}
+.line-fb-container .facebook2 .con1,.line-fb-container .line2 .con1{float:left;height:100%;width:23%;}
+.line-fb-container .facebook2 img,.line-fb-container .line2 img{margin-bottom:0px;width:100%;height:auto;}
+@media (max-width:768px){section.footer-contact .line-fb-container .line2, section.footer-contact .line-fb-container .facebook2{float:left;text-transform:uppercase;text-align:left;font-size:25px;line-height:41px;width:50%;display:block;padding:0px;margin:0px;text-align:left;color:#FFFFFF;}
+.line-fb-container .facebook2 .con1,.line-fb-container .line2 .con1{float:left;height:100%;width:12%;}
+section.footer-contact .line-fb-container{bottom:-20px;}
+.Hdp .OddsL{width:120px;}
+div.act-main,.bg_act{background:#22b2fa url("../img/bg_act.png");background-repeat:no-repeat;padding:0px 0px 0px 0px;}
+}
+@media (max-width:484px){section.footer-contact .line-fb-container{bottom:-40px;}
+section.footer-contact .line-fb-container .line2, section.footer-contact .line-fb-container .facebook2{float:left;text-transform:uppercase;text-align:left;font-size:25px;line-height:41px;width:100%;display:block;padding:0px;margin:0px;text-align:left;color:#FFFFFF;}
+.Hdp .OddsL{width:75px;}
+div.act-main,.bg_act{background:#22b2fa url("../img/bg_act.png");background-repeat:no-repeat;padding:0px 0px 0px 0px;}
+section.odds{padding:0px 0;}
+.promotion-n-about-bg{background:#000000;}
+section.register-step div.container{padding:0px;}
+div.promotion-inner,div.promotion-item,div.about_div,div.step_regis,div.register-step-content{display:none;}
+}
+.line2 .content-box{width:54%;float:left;}
+.line2 .content-box .content{line-height:1.2em;margin-top:10px;}
+@media screen and (max-width:767px){.line2 .content-box .content{margin-top:0;font-size:0.8em;}
+}

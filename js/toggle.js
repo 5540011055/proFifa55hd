@@ -1,0 +1,1 @@
+$(document).ready(function(){$('.toggle-btn').click(function(e){e.preventDefault();$(this).closest('li').find('.toggle-content').slideToggle();});});

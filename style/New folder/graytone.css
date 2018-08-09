@@ -1,0 +1,7 @@
+img {
+-webkit-filter: grayscale(100%) !important; 
+filter: grayscale(100%) !important;
+}
+html {
+-webkit-filter: grayscale(100%) !important;
+}

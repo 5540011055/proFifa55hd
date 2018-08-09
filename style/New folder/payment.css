@@ -1,0 +1,270 @@
+.payment-confirm {
+	float: left;
+	width: 100%;
+}
+
+.select-pay {
+	float: left;
+	width: 100%;
+}
+
+.select-pay .pay-top-1 {
+	text-align: center;
+	float: left;
+	width: 229px;
+	height: 41px;
+	background-color: #8357ec;
+	color: #fff;
+	font-size: 17px;
+	line-height: 40px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.select-pay .acc-top2 {
+	float: left;
+	width: 100%;
+	height: 36px;
+	background: #f4f4f4;
+	border: 1px solid #dadada;
+	color: #fff001;
+	line-height: 37px;
+	text-indent: 20px;
+}
+
+.select-pay .pay-mid {
+	float: left;
+	width: 100%;
+	background: #F5F5F5;
+	border: 1px solid #dadada;
+	border-top: 5px solid #8357ec;
+}
+
+.select-pay .pay-mid .pay-head {
+	float: left;
+	width: 100%;
+	text-align: center;
+	padding-bottom: 8px;
+    padding-top: 8px;
+    background: #E0E0E0;
+}
+
+.select-pay .pay-mid .pay-head ul {
+	float: left;
+	width: 100%;
+}
+
+.select-pay .pay-mid .pay-head ul li {
+	color: #325867;
+	font-size: 14px;
+	/* margin-top: 10px; */
+}
+
+.select-pay .pay-mid .pay-detail {
+	float: left;
+	width: 100%;
+	margin-top: 5px;
+}
+
+.select-pay .pay-mid .pay-detail ul {
+	float: left;
+	width: 100%;
+}
+
+.select-pay .pay-mid .pay-detail ul li {
+	font-size: 14px;
+	color: #424242;
+	font-weight: bold;
+	padding: 8px 0 8px 0;
+	float: left;
+	width: 100%;
+	border-bottom: 1px #e5e5e5 solid;
+}
+
+.bullet-bank {
+	float: left;
+	width: 5%;
+	text-align: right;
+	padding: 5px 0 0 0;
+}
+
+.icon-bank {
+	float: left;
+	width: 6%;
+	text-align: center;
+	padding: 0;
+}
+
+.name-bank {
+	float: left;
+	width: 20%;
+	padding: 5px 0 0 0;
+}
+
+.id-bank {
+	float: left;
+	width: 12%;
+	padding: 5px 0 0 0;
+}
+
+.person-bank {
+	    float: left;
+    width: 20%;
+    padding: 5px 0 0 0;
+}
+
+.branh-bank {
+	float: left;
+    width: 22%;
+    padding: 5px 0 0 0;
+}
+
+.type-bank {
+	    float: left;
+    width: 15%;
+    padding: 5px 0 0 0;
+}
+
+.f-bold{
+	font-weight: bold;
+}
+
+/************************************* detail-payment ****************************************/
+.detail-payment {
+	float: left;
+	width: 100%;
+	margin: 40px 0 0 0;
+}
+
+.detail-payment .dp-top1 {
+	text-align: center;
+    float: left;
+    width: 229px;
+    height: 41px;
+    background-color: #8357ec;
+    color: #fff;
+    font-size: 17px;
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.detail-payment .dp-mid {
+	float: left;
+    width: 100%;
+    background: #f4f4f4;
+    border: 1px solid #dadada;
+    padding: 5px 0 10px 0;
+    border-top: 5px solid #8357ec
+}
+
+.detail-payment .dp-mid ul {
+	float: left;
+	width: 100%;
+	padding: 10px 25px;
+}
+
+.detail-payment .dp-mid ul li {
+	float: left;
+	width: 100%;
+}
+
+.detail-payment .dp-mid ul li.half {
+	float: left;
+	width: 34%;
+	padding: 5px 0;
+}
+
+.paytext {
+	float: left;
+	width: 100%;
+	padding-bottom: 5px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #424242;
+}
+
+.paybox {
+	float: left;
+	width: 100%;
+	position: relative;
+}
+
+.select-file {
+	/* float:left; */
+	width: 105px;
+    height: 28px;
+    background: #8357ec;
+    border: 1px solid #4c2892;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    font-size: 14px;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+}
+
+.select-file a {
+	color: #fff;
+}
+
+.style-box {
+	width: 304px;
+	height: 32px;
+
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	
+	background: #EDE7F6;
+   	border: 1px solid rgba(225, 190, 231, 0.7);
+}
+
+.detail-payment .dp-mid ul li.full {
+	float: left;
+	width: 100%;
+	padding: 5px 0;
+}
+
+.style-box2 {
+	width: 648px;
+	height: 65px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	background: #EDE7F6;
+    border: 1px solid rgba(225, 190, 231, 0.7);
+}
+
+
+.txt-center{
+	text-align: center;
+}
+
+.pay-confirm{
+	width: 25%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    display: inline-block;
+    text-transform: uppercase;
+    margin: 30px 28px;
+    color: #fff;
+    background: rgb(76, 40, 146);
+    border: 1px solid rgb(106, 16, 193);
+}
+
+.pay-confirm:hover{
+	cursor: pointer;
+	background: rgb(106, 16, 193);
+}
+
+.alertpay{
+	height: 40px;
+    width: 63%;
+}

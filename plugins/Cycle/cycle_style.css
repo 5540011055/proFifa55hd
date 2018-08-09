@@ -1,0 +1,37 @@
+#pager a {
+	background: url('../../images/banner-slide/button-2.png') no-repeat;
+	text-decoration: none;
+	margin: 0 1px;
+	padding: 4px 5px;
+	width:  21px;
+	height: 20px;
+}
+
+#pager a.activeSlide {
+	background: url('../../images/banner-slide/button-1.png') no-repeat;
+	width: 21px;
+	height: 20px;
+}
+
+#pager a:focus {
+	outline: none;
+}
+
+#pager2 a {
+	background: url('../../images/banner-slide/button-2.png') no-repeat;
+	text-decoration: none;
+	margin: 0 1px;
+	padding: 4px 5px;
+	width:  21px;
+	height: 20px;
+}
+
+#pager2 a.activeSlide {
+	background: url('../../images/banner-slide/button-1.png') no-repeat;
+	width: 21px;
+	height: 20px;
+}
+
+#pager2 a:focus {
+	outline: none;
+}
