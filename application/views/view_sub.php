@@ -62,7 +62,8 @@
 	<div class="outter-wrapper paralax-block" style="padding-top: 0; padding-bottom: 3em; margin-top: 0; background: linear-gradient( rgba(25,25,25, 0.8), rgba(25,25,25, 0.8) ), url(img/next-match-bg.jpg);-webkit-background-size: cover; background-size: cover; background-position: 0px -20px;" data-stellar-background-ratio="0.75">		
 	    	<div class="wrapper clearfix wp-head">
 	    		<h1 style="font-size: 45px; font-family: 'PSLxKittithadabold'; padding: 0;"><?=getPicContent();?></h1>
-	    		<p class="col-2-2" style="padding: 0; margin: 0; font-family: 'THSarabunNewRegular'; font-size: 30px; color: #c7e0e8;">"<?=getGeneralConfig("company_slogan");?>"</p>
+	    		<!--<p class="col-2-2" style="padding: 0; margin: 0; font-family: 'THSarabunNewRegular'; font-size: 30px; color: #c7e0e8;">"<?=getGeneralConfig("company_slogan");?>"</p>-->
+	    		<p class="col-2-2" style="padding: 0; margin: 0; font-family: 'THSarabunNewRegular'; font-size: 30px; color: #c7e0e8;">"<?=$txt_content;?>"</p>
 	    	</div>
     	</div>
     	

@@ -106,7 +106,8 @@ class Howtoplay extends CI_Controller {
         	'totalRow'		=> @$totalRow,
             'search'		=> @$search_text,
         	'page_temp'		=> @$page,
-            'paginator'     => nextPage(@$limit,$adjacent,$totalRow,$page,@$Qsearch)
+            'paginator'     => nextPage(@$limit,$adjacent,$totalRow,$page,@$Qsearch),
+            'txt_content' => "FIFA55HD มีการพัฒนาระบบการแทงบอลให้ตอบสนองความต้องการของคนไทยมากที่สุดและดีที่สุดในขณะนี้"
         );
         
       
