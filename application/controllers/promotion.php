@@ -106,7 +106,8 @@ class Promotion extends CI_Controller {
         	'totalRow'		=> @$totalRow,
         	'page_temp'		=> @$page,
             'search'		=> @$search_text,
-            'paginator'     => nextPage(@$limit,$adjacent,$totalRow,$page,@$Qsearch)
+            'paginator'     => nextPage(@$limit,$adjacent,$totalRow,$page,@$Qsearch),
+            'txt_content' => "FIFA55HD โปรโมชั่นพิเศษ มีการอัพเดทใหม่ทุกเดือน เพื่อตอบสนองความต้องการของคุณ"
         );
         
         if(isset($_REQUEST['actionfunction']) && $_REQUEST['actionfunction']!=''){	

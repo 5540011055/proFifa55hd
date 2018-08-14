@@ -64,8 +64,10 @@ class Livescore extends CI_Controller {
     
     
   public function showList(){        
-
-        	 $this->loadView('view_sub', Array('VIEW_BODY' => $this->getView($this->data['_CMD'].'/showlist')));
+			 $data                   = Array(
+            'txt_content' => "FIFA55HD มีการรายงานผลบอลสด อัพเดทตลอดเวลา 24 ชั่วโมง"
+				);
+        	 $this->loadView('view_sub', Array('VIEW_BODY' => $this->getView($this->data['_CMD'].'/showlist',$data)));
         
         
   }

@@ -109,7 +109,8 @@ class News extends CI_Controller {
 				'totalRow'		=> @$totalRow,
 				'search'		=> @$search_text,
 				'page_temp'		=> @$page,
-				'paginator'     => nextPage(@$limit,$adjacent,$totalRow,$page,@$Qsearch)
+				'paginator'     => nextPage(@$limit,$adjacent,$totalRow,$page,@$Qsearch),
+            'txt_content' => "FIFA55HD อัพเดทข่าวซื้อ-ขายนักเตะ ข่าวเด่นในวงการฟุตบอล"
 				);
 
 

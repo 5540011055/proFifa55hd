@@ -105,7 +105,8 @@ class Withdraw extends CI_Controller {
             'rs'            => $rs,
         	'totalRow'		=> @$totalRow,
             'search'		=> @$search_text,
-            'paginator'     => nextPage(@$limit,$adjacent,$totalRow,$page,@$Qsearch)
+            'paginator'     => nextPage(@$limit,$adjacent,$totalRow,$page,@$Qsearch),
+            'txt_content' => "ฝากเงิน รับเครดิต แทงบอลออนไลน์ พนันฟุตบอล ดีที่สุด สะดวกระบบเว็บไซต์รองรับ มือถือ คอมพิวเตอร์"
         );
         
       
